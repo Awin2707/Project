@@ -1,6 +1,5 @@
 import React from 'react'
 import classes from '../Styles/field.module.css';
-import config from '../Config/config.json';
 
 const CustomField = ({ type, name, placeholder, pass, errmsg, onchange, value, label, onKeys, ref, ind, img }) => {
   return (
